@@ -8,9 +8,9 @@ Information Collection And Use
 
 We do not currently collect personal information or any information about the devices of channel users. However, we use the platform provided by Roku, Inc to make this channel available to you. You can find information about their policies below.
 
-https://docs.roku.com/published/userprivacypolicy/en/us
+[Roku Privacy Policy](https://docs.roku.com/published/userprivacypolicy/en/us)
 
-https://docs.roku.com/published/deviceplayereula/en/us
+[Roku Terms of Use](https://docs.roku.com/published/deviceplayereula/en/us)
 
 Security
 
