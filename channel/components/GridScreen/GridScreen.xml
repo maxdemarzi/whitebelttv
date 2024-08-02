@@ -10,7 +10,8 @@
         <Label
 	        id="titleLabel"
 	        width="1020"
-			translation="[130,170]"
+			translation="[130,180]"
+            color = "0x000000ff"
 	    />
         <!-- Label with description of content.
 	         wrap="true" and numLines="3" means that the text can be broken into three lines -->
@@ -19,12 +20,13 @@
 	        wrap="true"
 	        width="1020"
 	        numLines="3"
-			translation="[130,220]"
+			translation="[130,230]"
+            color="0x000000ff"
 	    />
         <RowList
             itemComponentName="RowListItemComponent"
             id="rowList"
-            translation="[80,350]"
+            translation="[80,360]"
             numRows="2"
             rowitemSize="[[320,180]]"
             rowItemSpacing="[[20,0]]"
@@ -33,6 +35,7 @@
             focusXOffset="[50]"
             showRowLabel="[true]"
             rowFocusAnimationStyle="floatingfocus"
+            rowLabelColor="0x000000ff"
         />
     </children>
 </component>

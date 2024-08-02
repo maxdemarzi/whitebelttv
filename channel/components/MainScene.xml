@@ -11,8 +11,8 @@
             id="overhang"
             showOptions="false"
             showClock="false"
-            logoUri="pkg:/images/white_belt_tv_hd_overhang_logo.png"
-            translation="[0,60]"
+            logoUri="pkg:/images/white_belt_tv_hd_top_logo.png"
+            translation="[0,0]"
         />
         <!-- LoadingIndicator should be visible only in case of waiting for content -->
         <Label
