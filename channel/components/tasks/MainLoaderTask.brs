@@ -59,6 +59,9 @@ function GetItemData(video as Object) as Object
     if video.content <> invalid
         ' populate length of content to be displayed on the GridScreen
         item.length = video.content.duration
+        ' populate meta-data for playback
+        item.url = video.content.videos[0].url
+        item.streamFormat = video.content.videos[0].videoType
     end if
     return item
 end function
