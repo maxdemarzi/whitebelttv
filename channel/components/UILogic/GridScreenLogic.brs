@@ -3,7 +3,7 @@
 sub ShowGridScreen()
     m.GridScreen = CreateObject("roSGNode", "GridScreen")
     m.GridScreen.ObserveField("rowItemSelected", "OnGridScreenItemSelected")
-    ShowScreen(m.GridScreen) ' show GridScreen using ScrrenStackLogic.brs method
+    ShowScreen(m.GridScreen) ' show GridScreen using ScreenStackLogic.brs method
 end sub
 
 sub OnGridScreenItemSelected(event as Object) ' invoked when GridScreen item is selected
@@ -12,6 +12,5 @@ sub OnGridScreenItemSelected(event as Object) ' invoked when GridScreen item is 
     m.selectedIndex = event.GetData()
     ' the entire row from the RowList will be used by the Video node
     rowContent = grid.content.GetChild(m.selectedIndex[0])
-    itemIndex = m.selectedIndex[1]
-    ShowVideoScreen(rowContent, itemIndex)
+    ShowDetailsScreen(rowContent, m.selectedIndex[1])
 end sub
