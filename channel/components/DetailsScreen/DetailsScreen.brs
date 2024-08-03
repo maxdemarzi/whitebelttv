@@ -12,30 +12,41 @@ function Init()
     m.timeLabel = m.top.FindNode("timeLabel")
     m.titleLabel = m.top.FindNode("titleLabel")
     m.releaseLabel = m.top.FindNode("releaseLabel")
-    
-    ' create buttons
-    result = []
-    for each button in ["Play"] ' buttons list contains only "Play" button for now
-        result.Push({title : button})
-    end for
-    m.buttons.content = ContentListToSimpleNode(result) ' set list of buttons for DetailsScreen
 end function
 
-sub OnVisibleChange() ' invoked when DetailsScreen visibility is changed
-    ' set focus for buttons list when DetailsScreen become visible
+sub OnVisibleChange()' invoked when DetailsScreen visibility is changed
+    ' set focus for buttons list when DetailsScreen becomes visible
     if m.top.visible = true
         m.buttons.SetFocus(true)
-        m.top.itemFocused = m.top.jumpToItem
     end if
 end sub
 
+sub SetButtons(buttons)
+    result = []
+    ' prepare array with button's titles
+    for each button in buttons
+        result.push({title : button})
+    end for
+    m.buttons.content = ContentListToSimpleNode(result) ' populate buttons list
+end sub
+
 ' Populate content details information
-sub SetDetailsContent(content as Object)
-    m.description.text = content.description ' set description of content
-    m.poster.uri = content.hdPosterUrl ' set url of content poster
-    m.timeLabel.text = GetTime(content.length) ' set length of content
-    m.titleLabel.text = content.title ' set title of content
-    m.releaseLabel.text = content.releaseDate ' set release date of content
+sub SetDetailsContent(content)
+    ' populate screen components with metadata
+    m.description.text = content.description
+    m.poster.uri = content.hdPosterUrl
+    if content.length <> invalid and content.length <> 0
+        m.timeLabel.text = getTime(content.length)
+    end if
+    m.titleLabel.text = content.title
+    m.releaseLabel.text = Left(content.releaseDate, 10)
+    if content.mediaType = "series"
+        ' buttons for series DetailsScreen
+        SetButtons(["Play", "See all episodes"])
+    else
+        ' buttons for content DetailsScreen
+        SetButtons(["Play"])
+    end if
 end sub
 
 sub OnJumpToItem() ' invoked when jumpToItem field is populated

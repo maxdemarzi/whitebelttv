@@ -1,21 +1,12 @@
 ' Note that we need to import this file in MainScene.xml using relative path.
 
-sub ShowVideoScreen(rowContent as Object, selectedItem as Integer)
+sub ShowVideoScreen(rowContent as Object, selectedItem as Integer, isSeries = false as Boolean)
+    m.isSeries = isSeries
     m.videoPlayer = CreateObject("roSGNode", "Video") ' create new instance of video node for each playback
-    m.selectedIndex[1] = selectedItem
     ' we can't set index of content which should start firstly in playlist mode.
     ' for cases when user select second, third etc. item in the row we use the following workaround
     if selectedItem <> 0 ' check if user select any but first item of the row
-        numOfChildren = rowContent.GetChildCount() ' get number of row items
-        ' populate children array only with  items started from selected one.
-        ' example: row has 3 items. user select second one so we must take just second and third items.
-        children = rowContent.GetChildren(numOfChildren - selectedItem, selectedItem)
-        childrenClone = []
-        ' go through each item of children array and clone them.
-        for each child in children
-        ' we need to clone item node because it will be damaged in case of video node content invalidation
-            childrenClone.Push(child.Clone(false))
-        end for
+        childrenClone = CloneChildren(rowContent, selectedItem)
         ' create new parent node for our cloned items
         rowNode = CreateObject("roSGNode", "ContentNode")
         rowNode.Update({ children: childrenClone }, true)
@@ -47,8 +38,14 @@ sub OnVideoVisibleChange() ' invoked when video node visibility is changed
         'clear video player content, for proper start of next video player
         m.videoPlayer.content = invalid
         screen = GetCurrentScreen()
-        screen.SetFocus(true) ' return focus to grid screen
+        screen.SetFocus(true) ' return focus to details screen
+        newIndex = m.selectedIndex[1]
+        if m.isSeries = true
+           m.isSeries = false
+        else
+           newIndex += currentIndex
+        end if
         ' navigate to the last played item
-        screen.jumpToItem = currentIndex + m.selectedIndex[1]
+        screen.jumpToItem = newIndex
     end if
 end sub

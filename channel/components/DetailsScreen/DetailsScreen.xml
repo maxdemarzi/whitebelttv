@@ -37,7 +37,7 @@
                 <Label
                     id="titleLabel"
                     width="357"
-                    wrap="false"
+                    wrap="true"
                     horizAlign="right"
                     color = "0x000000ff"
                 />
