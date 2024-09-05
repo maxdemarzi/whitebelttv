@@ -24,7 +24,7 @@
 								"dateAdded": "2020-03-06T20:25:52Z",
 								"videos": [{
 									"videoType": "HLS",
-									"url": "https://iframe.mediadelivery.net/play/279158/41ac73f5-56d5-486d-84c4-4df831260ad7",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/41ac73f5-56d5-486d-84c4-4df831260ad7/playlist.m3u8",
 									"quality": "HD"
 								}],
 								"duration": 587,
@@ -49,7 +49,7 @@
 								"dateAdded": "2020-02-04T19:08:55Z",
 								"videos": [{
 									"videoType": "HLS",
-									"url": "https://iframe.mediadelivery.net/play/279158/613dd908-3b9b-40b5-b306-8fa9629d99ca",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/613dd908-3b9b-40b5-b306-8fa9629d99ca/playlist.m3u8",
 									"quality": "HD"
 								}],
 								"duration": 398,
@@ -78,14 +78,14 @@
 								"dateAdded": "2020-01-29T02:32:18Z",
 								"videos": [{
 									"videoType": "HLS",
-									"url": "https://iframe.mediadelivery.net/play/279158/3dac480f-5a9d-40b0-8881-589d183878c4",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/3dac480f-5a9d-40b0-8881-589d183878c4/playlist.m3u8",
 									"quality": "HD"
 								}],
 								"duration": 485,
 
 								"language": "en-us"
 							},
-							"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-cb6dc73fb84bf7f0d35b99b83217f2dbc9bc08d5_1/images/GUEST_MODE.jpg",
+							"thumbnail": "https://white-belt-tv-thumbnails.b-cdn.net/limibjj-escapes/01%20-%20Late%20Stage%20Arm%20Bar%20Defense%20(EBI%2019%20Takeaways).jpg",
 							"shortDescription": "Late stage armbar defense",
 							"releaseDate": "2019-12-03",
 							"longDescription": "After watching EBI 19 I was amazing at the late stage armbar defense displayed throughout the event.",
@@ -104,13 +104,13 @@
 								"dateAdded": "2020-03-06T20:43:17Z",
 								"videos": [{
 									"videoType": "HLS",
-									"url": "https://iframe.mediadelivery.net/play/279158/fad362d7-a844-47dd-8f6f-78b45594ef05",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/fad362d7-a844-47dd-8f6f-78b45594ef05/playlist.m3u8",
 									"quality": "HD"
 								}],
 								"duration": 442,
 								"language": "en-us"
 							},
-							"thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-6f2088297f82e02e74e07341fd404750b56e2fbb_2/images/ROKU_PRIVATE_LISTENING_012219.jpg",
+							"thumbnail": "https://white-belt-tv-thumbnails.b-cdn.net/limibjj-escapes/04%20-%20What%20went%20wrong%20%F0%9F%98%9E%20Outside%20Heel%20Hook%20Defense.jpg",
 							"shortDescription": "Outside Heel Hook Defense",
 							"releaseDate": "2019-10-15",
 							"longDescription": "Our ultimate goal is defend against the heel hook as our opponent cycles through different leg configurations.",
