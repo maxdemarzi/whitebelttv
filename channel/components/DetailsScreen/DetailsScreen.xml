@@ -55,6 +55,9 @@
                     numRows="3"
                     itemSpacing="[0,10]"
                     itemSize="[593, 48]"
+                    focusedColor = "0x000000ff"
+                    color = "0x000000ff"
+                    sectionDividerTextColor = "0x000000ff"
                 />
                 <LayoutGroup
                     itemSpacings="[40]"
