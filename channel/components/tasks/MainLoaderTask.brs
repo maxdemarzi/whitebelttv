@@ -9,7 +9,7 @@ sub GetContent()
     ' request the content feed from the API
     xfer = CreateObject("roURLTransfer")
     xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")
-    xfer.SetURL("https://whitebelt.tv/roku-developers-feed-v1.json")
+    xfer.SetURL("https://whitebelt.tv/white-belt-tv-feed-v1.json")
     rsp = xfer.GetToString()
     rootChildren = []
     rows = {}
