@@ -146,7 +146,7 @@
 							"content": {
 								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
-									"videoType": "MP4",
+									"videoType": "HLS",
 									"url": "https://vz-556fe676-ce4.b-cdn.net/2cb8910a-302d-4dcc-b706-6cf3ad66fe04/playlist.m3u8",
 									"quality": "HD"
 								}],
@@ -171,7 +171,7 @@
 							"content": {
 								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
-									"videoType": "MP4",
+									"videoType": "HLS",
 									"url": "https://vz-556fe676-ce4.b-cdn.net/a3aeae99-530f-4716-9bee-7bdb49548c0e/playlist.m3u8",
 									"quality": "HD"
 								}],
@@ -196,7 +196,7 @@
 							"content": {
 								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
-									"videoType": "MP4",
+									"videoType": "HLS",
 									"url": "https://vz-556fe676-ce4.b-cdn.net/d54a6c55-2dbb-4714-9c0f-9b1a42b20a9a/playlist.m3u8",
 									"quality": "HD"
 								}],
@@ -221,7 +221,7 @@
 							"content": {
 								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
-									"videoType": "MP4",
+									"videoType": "HLS",
 									"url": "https://vz-556fe676-ce4.b-cdn.net/a4204ae7-a764-4c87-8783-2c9844844279/playlist.m3u8",
 									"quality": "HD"
 								}],
