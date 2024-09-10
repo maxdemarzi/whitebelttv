@@ -126,167 +126,114 @@
 			]
 		},
 		{
-			"id": "series_2_RSG",
-			"title": "SceneGraph Developers: Build a Channel",
-			"releaseDate": "2020-03-15T02:01:00+02:00",
-			"shortDescription": "The \"SceneGraph Developers: Build a Channel\" course teaches novice Roku developers how to develop a channel from the ground up with the Roku SDK. This course walks developers through each step in building a basic, high-performance Roku channel that passes certification. This course is ideal for developers that are new to the Roku platform and want a simple, streamlined path for quickly understanding Roku development.",
-			"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-build-channel-series.jpg",
+			"id": "aoj-atl",
+			"title": "Attacking the Legs",
+			"releaseDate": "2024-09-09T02:01:00+02:00",
+			"shortDescription": "Attacking the Legs by Diego Pato",
+			"thumbnail": "https://white-belt-tv-thumbnails.b-cdn.net/aoj-atl/00%20-%20Diego%20Pato%20Attacking%20The%20Legs%20(NOGI%20Masterclass).jpg",
 			"genres": [
 				"educational"
 			],
 			"tags": [
-				"RSG"
+				"AOJ"
 			],
 			"seasons": [{
-					"title": "Season 1",
+					"title": "Drills",
 					"episodes": [{
-							"id": "rsg_unit1_intro",
-							"title": "Introduction to the course",
+							"id": "aoj-atl-drills",
+							"title": "Open Guard",
 							"episodeNumber": 1,
 							"content": {
-								"dateAdded": "2020-05-07T02:32:24Z",
+								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
 									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit1-intro-v3.mp4",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/2cb8910a-302d-4dcc-b706-6cf3ad66fe04/playlist.m3u8",
 									"quality": "HD"
 								}],
-								"duration": 178,
+								"duration": 217,
 								"language": "en-us"
 							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/video1-intro-course-v2.png",
-							"shortDescription": "Watch the introduction to the \"SceneGraph: Build a Channel\" development course. This video outlines the course syllabus.",
-							"releaseDate": "2020-05-07",
-							"longDescription": "Watch the introduction to the \"SceneGraph: Build a Channel\" development course. This video outlines the course syllabus.",
+							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/2cb8910a-302d-4dcc-b706-6cf3ad66fe04/thumbnail.jpg",
+							"shortDescription": "Drills - Open Guard",
+							"releaseDate": "2024-09-09",
+							"longDescription": "",
 							"tags": [
-								"RSG"
+								"AOJ"
 							],
 							"genres": [
 								"educational"
 							]
 						},
 						{
-							"id": "rsg-unit2-developerSetup",
-							"title": "Development setup",
+							"id": "aoj-atl-drills-2",
+							"title": "Guard Retention",
 							"episodeNumber": 2,
 							"content": {
-								"dateAdded": "2020-05-07T02:32:24Z",
+								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
 									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit2-developerSetup-v4.mp4",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/a3aeae99-530f-4716-9bee-7bdb49548c0e/playlist.m3u8",
 									"quality": "HD"
 								}],
-								"duration": 431,
+								"duration": 240,
 								"language": "en-us"
 							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit2-developerSetup-v4.png",
-							"shortDescription": "Start developing for the Roku platform. This lesson explains the first steps.",
-							"releaseDate": "2020-05-07",
-							"longDescription": "Start developing for the Roku platform. This lesson explains the first steps, which includes creating the required user and developer accounts and enabling your test Roku device for development. Once you're done, you can sideload Roku's Hello World channel and view its output in the debug console.",
+							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/a3aeae99-530f-4716-9bee-7bdb49548c0e/thumbnail.jpg",
+							"shortDescription": "Drill - Guard Retention",
+							"releaseDate": "2024-09-09",
+							"longDescription": "",
 							"tags": [
-								"RSG"
+								"AOJ"
 							],
 							"genres": [
 								"educational"
 							]
 						},
-
 						{
-							"id": "video3-scenegraph-overview",
-							"title": "Core concepts",
+							"id": "aoj-atl-drills-3",
+							"title": "Hand Fighting Sit Up Guard",
 							"episodeNumber": 3,
 							"content": {
-								"dateAdded": "2020-05-07T02:32:24Z",
+								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
 									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit3-sgoverview-v3.mp4",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/d54a6c55-2dbb-4714-9c0f-9b1a42b20a9a/playlist.m3u8",
 									"quality": "HD"
 								}],
-								"duration": 765,
+								"duration": 476,
 								"language": "en-us"
 							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit3-core-concepts.png",
-							"shortDescription": "Review key concepts for developing on the Roku platform.",
-							"releaseDate": "2020-05-07",
-							"longDescription": "Review key concepts for developing on the Roku platform. This lesson explains the basic design principles and key concepts of Roku development, provide an overview of Roku's development platform, and review the contents and structure of Roku channels. You'll learn about: SceneGraph and BrightScript, the different types of components you can use to build your channel UI, and many other topics. When you are done with this lesson, you will be ready to start working on your first Roku channel!",
+							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/d54a6c55-2dbb-4714-9c0f-9b1a42b20a9a/thumbnail.jpg",
+							"shortDescription": "Drill - Hand Fighting Sit Up Guard",
+							"releaseDate": "2024-09-09",
+							"longDescription": "",
 							"tags": [
-								"RSG"
+								"AOJ"
 							],
 							"genres": [
 								"educational"
 							]
 						},
-
 						{
-							"id": "rsg-unit4-contentFeed",
-							"title": "Creating the content feed",
+							"id": "aoj-atl-drills-4",
+							"title": "Hip Position",
 							"episodeNumber": 4,
 							"content": {
-								"dateAdded": "2020-05-07T02:32:24Z",
+								"dateAdded": "2024-09-10T02:32:24Z",
 								"videos": [{
 									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit4-contentFeed-v3.mp4",
+									"url": "https://vz-556fe676-ce4.b-cdn.net/a4204ae7-a764-4c87-8783-2c9844844279/playlist.m3u8",
 									"quality": "HD"
 								}],
-								"duration": 280,
+								"duration": 380,
 								"language": "en-us"
 							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit4-content-feed.png",
-							"shortDescription": "Learn how the content feed is used to load and organize content in the channel.",
-							"releaseDate": "2020-07-18",
-							"longDescription": "Learn how the content feed is used to load and organize content in the channel. This lesson explains how the ContentNode maps metadata in your content feed to components in your channel UI, and it provides a few tips for creating your own feed.",
+							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/a4204ae7-a764-4c87-8783-2c9844844279/thumbnail.jpg",
+							"shortDescription": "Drill - Hip Position",
+							"releaseDate": "2024-09-09",
+							"longDescription": "",
 							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
-						},
-
-						{
-							"id": "video5-grid-screen",
-							"title": "Creating a Grid Screen",
-							"episodeNumber": 5,
-							"content": {
-								"dateAdded": "2020-05-07T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit5-gridscreen-v4.mp4",
-									"quality": "HD"
-								}],
-								"duration": 1899,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit5-gridScreen.png",
-							"shortDescription": "Build a grid screen that displays rows of content",
-							"releaseDate": "2020-05-07",
-							"longDescription": "Build a grid screen that displays rows of content. This lesson describes how to create a basic channel that gets the videos from a content feed and displays them in a grid. It explains how to create SceneGraph components, set their attributes, and create their interfaces. It also teaches how to use BrightScript to parse the metadata in the content feed, add the metadata to content nodes, and then add the content nodes to your components.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
-						},
-						{
-							"id": "video6-video-player",
-							"title": "Adding the Video Player",
-							"episodeNumber": 6,
-							"content": {
-								"dateAdded": "2020-05-07T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit6-videoplayer-v3.mp4",
-									"quality": "HD"
-								}],
-								"duration": 819,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit6-videoPlayer-v2a.png",
-							"shortDescription": "Add a video player to launch content into playback",
-							"releaseDate": "2020-05-13",
-							"longDescription": "Add a video player to launch content into playback. This lesson teaches how to add the SceneGraph Video node to your channel and link it to the content in other components. It explains how to open the video screen when content is selected, and close it when playback finishes or the back button is pressed on the Roku remote control.",
-							"tags": [
-								"RSG"
+								"AOJ"
 							],
 							"genres": [
 								"educational"
