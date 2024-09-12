@@ -156,7 +156,7 @@
 							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/2cb8910a-302d-4dcc-b706-6cf3ad66fe04/thumbnail.jpg",
 							"shortDescription": "Drills - Open Guard",
 							"releaseDate": "2024-09-09",
-							"longDescription": "",
+							"longDescription": "Drills - Open Guard",
 							"tags": [
 								"AOJ"
 							],
@@ -181,7 +181,7 @@
 							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/a3aeae99-530f-4716-9bee-7bdb49548c0e/thumbnail.jpg",
 							"shortDescription": "Drill - Guard Retention",
 							"releaseDate": "2024-09-09",
-							"longDescription": "",
+							"longDescription": "Drill - Guard Retention",
 							"tags": [
 								"AOJ"
 							],
@@ -206,7 +206,7 @@
 							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/d54a6c55-2dbb-4714-9c0f-9b1a42b20a9a/thumbnail.jpg",
 							"shortDescription": "Drill - Hand Fighting Sit Up Guard",
 							"releaseDate": "2024-09-09",
-							"longDescription": "",
+							"longDescription": "Drill - Hand Fighting Sit Up Guard",
 							"tags": [
 								"AOJ"
 							],
@@ -231,7 +231,7 @@
 							"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/a4204ae7-a764-4c87-8783-2c9844844279/thumbnail.jpg",
 							"shortDescription": "Drill - Hip Position",
 							"releaseDate": "2024-09-09",
-							"longDescription": "",
+							"longDescription": "Drill - Hip Position",
 							"tags": [
 								"AOJ"
 							],
@@ -242,214 +242,629 @@
 					]
 				},
 				{
-					"title": "Season 2",
+					"title": "Entries",
 					"episodes": [{
-							"id": "video7-debugger",
-							"title": "Debugging channels",
-							"episodeNumber": 1,
-							"content": {
-								"dateAdded": "2020-05-16T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit7-debugger-v3.mp4",
-									"quality": "HD"
-								}],
-								"duration": 381,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit7-debugging.png",
-							"shortDescription": "Debug Roku channels using the debug console",
-							"releaseDate": "2020-05-13",
-							"longDescription": "Debug Roku channels using the debug console. This lesson teaches you how to access the debug console via Telnet and the Roku Eclipse Plug-in and use the different debug ports. It explains how to view the crash logs, stack traces, and channel performance metrics in the console, and how to use the interactive debugger to type commands for checking and updating variable values, calling functions, and stepping through the application.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
+						"id": "aoj-atl-entries",
+						"title": "De La Riva going to K Guard",
+						"episodeNumber": 1,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/bc9b3113-a001-40da-b476-33ab94253f35/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 706,
+							"language": "en-us"
 						},
-						{
-							"id": "video8-detailsScreen",
-							"title": "Creating a Details Screen",
-							"episodeNumber": 2,
-							"content": {
-								"dateAdded": "2020-05-22T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit8-details-screen-v3.mp4",
-									"quality": "HD"
-								}],
-								"duration": 1251,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit8-detailsScreen.png",
-							"shortDescription": "Build a details screen that displays the release date, rating, genre, cast, and detailed description of the content selected from the grid screen",
-							"releaseDate": "2020-07-13",
-							"longDescription": "Build a details screen that provides more information about the content selected in the GridScreen, including the item's release date, rating, genre, cast, and detailed description. This lesson explains how to build a screen using more complex SceneGraph components. It describes how to create a Play button that launches the video player, populate the details screen with metadata that is already stored in other components, and switch the focus when the Details Screen is opened and closed.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/bc9b3113-a001-40da-b476-33ab94253f35/thumbnail.jpg",
+						"shortDescription": "Entries - De La Riva going to K Guard",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - De La Riva going to K Guard",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-entries-2",
+						"title": "Reverse De La Riva to False Reap",
+						"episodeNumber": 2,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/c3cfc6ae-289a-4ac4-a83e-87f380b4ae82/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 469,
+							"language": "en-us"
 						},
-						{
-							"id": "video9-episodesScreen",
-							"title": "Creating an Episodes Screen",
-							"episodeNumber": 3,
-							"content": {
-								"dateAdded": "2020-05-29T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit9-episodePicker-v3.mp4",
-									"quality": "HD"
-								}],
-								"duration": 2188,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit9-episodesScreen.png",
-							"shortDescription": "Build an episodes screen that organizes television series into seasons and episodes.",
-							"releaseDate": "2020-05-29",
-							"longDescription": "Build an episodes screen that organizes television series into seasons and episodes. The left side of the screen displays the seasons; the right side of the screen lists the episodes in the selected season. This lesson explains how to use new components such as the MarkupList and further layer components to create more complex UIs. It shows how to parse the content feed to populate an episode screen with sequentially numbered seasons and the episodes that belong in those seasons.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
-						}]	
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/c3cfc6ae-289a-4ac4-a83e-87f380b4ae82/thumbnail.jpg",
+						"shortDescription": "Entries - Reverse De La Riva to False Reap",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - Reverse De La Riva to False Reap",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},{
+						"id": "aoj-atl-entries-3",
+						"title": "Knee Shield to Outside Heel Hook",
+						"episodeNumber": 3,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/b78763dd-e226-4257-841d-f7b9c5cb80f9/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 558,
+							"language": "en-us"
+						},
+						"thumbnail": "",
+						"shortDescription": "Entries - Knee Shield to Outside Heel Hook",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - Knee Shield to Outside Heel Hook",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},{
+						"id": "aoj-atl-entries-4",
+						"title": "Reverse De La Riva going underneath to Saddle",
+						"episodeNumber": 4,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/5b7cc42d-8f68-47f9-b026-7520accac200/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 562,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/5b7cc42d-8f68-47f9-b026-7520accac200/thumbnail.jpg",
+						"shortDescription": "Entries - Reverse De La Riva going underneath to Saddle",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - Reverse De La Riva going underneath to Saddle",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},{
+						"id": "aoj-atl-entries-5",
+						"title": "Reverse De La Riva To Saddle same side leg",
+						"episodeNumber": 5,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/3bdd1dc3-587c-4f84-a3c0-8e82966605e9/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 505,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/3bdd1dc3-587c-4f84-a3c0-8e82966605e9/thumbnail.jpg",
+						"shortDescription": "Entries - Reverse De La Riva To Saddle same side leg",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - Reverse De La Riva To Saddle same side leg",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},{
+						"id": "aoj-atl-entries-6",
+						"title": "Options from the K Guard",
+						"episodeNumber": 6,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/919154b3-bada-4351-80e4-cf1727310723/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 880,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/919154b3-bada-4351-80e4-cf1727310723/thumbnail.jpg",
+						"shortDescription": "Entries - Options from the K Guard",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - Options from the K Guard",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},{
+						"id": "aoj-atl-entries-7",
+						"title": "K Guard variation on near leg",
+						"episodeNumber": 7,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/1f51829f-cd25-4cb7-b5b2-fb6eb53cf1d9/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 462,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/1f51829f-cd25-4cb7-b5b2-fb6eb53cf1d9/thumbnail.jpg",
+						"shortDescription": "Entries - K Guard variation on near leg",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - K Guard variation on near leg",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},{
+						"id": "aoj-atl-entries-8",
+						"title": "K Guard variations from standing",
+						"episodeNumber": 8,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/d3ba1542-42ed-4ad0-8f9c-cbeec5232e7a/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 220,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/d3ba1542-42ed-4ad0-8f9c-cbeec5232e7a/thumbnail.jpg",
+						"shortDescription": "Entries - K Guard variations from standing",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - K Guard variations from standing",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},{
+						"id": "aoj-atl-entries-9",
+						"title": "Trapping the head from top position",
+						"episodeNumber": 9,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/1e2b8935-4fd0-4c2a-8851-8efd7741d774/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 757,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/1e2b8935-4fd0-4c2a-8851-8efd7741d774/thumbnail.jpg",
+						"shortDescription": "Entries - Trapping the head from top position",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Entries - Trapping the head from top position",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					}]	
 					},
 				{
-					"title": "Season 3",
+					"title": "Finishes",
 					"episodes": [{
-							"id": "video10-videoAds",
-							"title": "Displaying Video Ads",
-							"episodeNumber": 1,
-							"content": {
-								"dateAdded": "2020-06-20T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit10-video-ads-part3.mp4",
-									"quality": "HD"
-								}],
-								"duration": 1380,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit10-video-ads.png",
-							"shortDescription": "Monetize content on the Roku platform through video ads.",
-							"releaseDate": "2020-06-20",
-							"longDescription": "Monetize content on the Roku platform through video ads. This lesson explains how to implement the Roku Advertising Framework (RAF) in order to seamlessly insert video ads into content. It describes the different client and server-side ad insertion and stitching solutions provided by RAF, and how to get started with RAF in order to display video ads in your channel.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
+						"id": "aoj-atl-finishes-1",
+						"title": "Z Lock Submission",
+						"episodeNumber": 1,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/f2664593-c736-4788-bc17-a94433641b8d/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 887,
+							"language": "en-us"
 						},
-						{
-							"id": "video11-subscriptions",
-							"title": "Offering Subscriptions",
-							"episodeNumber": 2,
-							"content": {
-								"dateAdded": "2020-06-27T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit11-subscriptions-v3.mp4",
-									"quality": "HD"
-								}],
-								"duration": 1561,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit11-rpay-subscriptions.png",
-							"shortDescription": "Monetize content on your channel by offering subscriptions, directly on-device, through Roku Pay",
-							"releaseDate": "2020-06-27",
-							"longDescription": "Monetize content on your channel by offering subscriptions, directly on-device, through Roku Pay. This lesson explains how to get started with Roku Pay, including how to create a channel, in-channel products, and test users. It describes how the Roku Pay workflow from checking entitlements to completing purchases and granting access to content. It explains how to integrate the Roku Web Service RESTful APIs into your backend system for validating, refunding, and canceling subscriptions.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/f2664593-c736-4788-bc17-a94433641b8d/thumbnail.jpg",
+						"shortDescription": "Finishes - Z Lock Submission",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Z Lock Submission",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-2",
+						"title": "Inside Heel Hook - Exposing the heel",
+						"episodeNumber": 2,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/9922b334-596a-43bf-b381-e5819d1e205f/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 607,
+							"language": "en-us"
 						},
-						{
-							"id": "video12-deep-linking-part1",
-							"title": "Deep Linking (part 1)",
-							"episodeNumber": 3,
-							"content": {
-								"dateAdded": "2020-07-10T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit12-deep-linking-v3-part1.mp4",
-									"quality": "HD"
-								}],
-								"duration": 2481,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit12-deep-linking.png",
-							"shortDescription": "Implement deep linking to get users to content as fast as possible.",
-							"releaseDate": "2020-07-04",
-							"longDescription": "Implement deep linking to get users to content as fast as possible. Program your channel application to accept and process deep links upon being launched and while it is already running. Configure the playback experiences required for the content types in your feed. Create bookmarks to store the user's playback position in the device registry or backend system, and create smart bookmarks to launch the most appropriate episode in a TV series based on the user's viewing history with that series.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/9922b334-596a-43bf-b381-e5819d1e205f/thumbnail.jpg",
+						"shortDescription": "Finishes - Inside Heel Hook - Exposing the heel",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Inside Heel Hook - Exposing the heel",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-3",
+						"title": "Cummings Trap",
+						"episodeNumber": 3,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/bc54726e-6cfa-470d-9bdd-63cc4742de1c/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 696,
+							"language": "en-us"
 						},
-						{
-							"id": "video12-deep-linking-part2",
-							"title": "Deep Linking (part 2)",
-							"episodeNumber": 4,
-							"content": {
-								"dateAdded": "2020-07-10T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit12-deep-linking-v3-part2.mp4",
-									"quality": "HD"
-								}],
-								"duration": 1567,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit12-deep-linking.png",
-							"shortDescription": "Implement deep linking to get users to content as fast as possible.",
-							"releaseDate": "2020-07-04",
-							"longDescription": "Implement deep linking to get users to content as fast as possible. Program your channel application to accept and process deep links upon being launched and while it is already running. Configure the playback experiences required for the content types in your feed. Create bookmarks to store the user's playback position in the device registry or backend system, and create smart bookmarks to launch the most appropriate episode in a TV series based on the user's viewing history with that series.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/bc54726e-6cfa-470d-9bdd-63cc4742de1c/thumbnail.jpg",
+						"shortDescription": "Finishes - Cummings Trap",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Cummings Trap",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-4",
+						"title": "Roll over to Knee Bar from Saddle",
+						"episodeNumber": 4,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/ad587d02-5cf9-491f-92bc-6978ed22ac5b/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 575,
+							"language": "en-us"
 						},
-						{
-							"id": "video13-certification-testing",
-							"title": "Certification Testing",
-							"episodeNumber": 5,
-							"content": {
-								"dateAdded": "2020-07-16T02:32:24Z",
-								"videos": [{
-									"videoType": "MP4",
-									"url": "https://image.roku.com/ZHZscHItMTc2/rsg-unit13-cert-testing-v3.mp4",
-									"quality": "HD"
-								}],
-								"duration": 848,
-								"language": "en-us"
-							},
-							"thumbnail": "https://image.roku.com/ZHZscHItMTc2/rsg-unit13-cert-testing.jpg",
-							"shortDescription": "Prepare your channel to be published to the Roku channel store.",
-							"releaseDate": "2020-07-16",
-							"longDescription": "Prepare your channel to be published to the Roku channel store. This lesson explains how to test your channel's design and performance and verify that it meets all of Roku's certification criteria using Roku's test automation software and automated testing tools. It provides a quick demo of Roku's Static Analysis tool, which detects certification-related issues with your channel's code and must be passed in order for your channel to be published to the Roku channel store.",
-							"tags": [
-								"RSG"
-							],
-							"genres": [
-								"educational"
-							]
-						}
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/ad587d02-5cf9-491f-92bc-6978ed22ac5b/thumbnail.jpg",
+						"shortDescription": "Finishes - Roll over to Knee Bar from Saddle",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Roll over to Knee Bar from Saddle",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-5",
+						"title": "Pato Lock",
+						"episodeNumber": 5,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/ead6c276-d6a9-49ff-8036-d499e5fa9768/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 655,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/ead6c276-d6a9-49ff-8036-d499e5fa9768/thumbnail.jpg",
+						"shortDescription": "Finishes - Pato Lock",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Pato Lock",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-6",
+						"title": "Escape the knee to Outside Heel Hook",
+						"episodeNumber": 6,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/12cb5cf0-57f4-4660-8515-be8ec3e28561/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 430,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/12cb5cf0-57f4-4660-8515-be8ec3e28561/thumbnail.jpg",
+						"shortDescription": "Finishes - Escape the knee to Outside Heel Hook",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Escape the knee to Outside Heel Hook",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-7",
+						"title": "Exercise to maintain Outside Heel Hook",
+						"episodeNumber": 7,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/f6b6d018-b3ba-46cb-98ae-5736e29b5030/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 768,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/f6b6d018-b3ba-46cb-98ae-5736e29b5030/thumbnail.jpg",
+						"shortDescription": "Finishes - Exercise to maintain Outside Heel Hook",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Exercise to maintain Outside Heel Hook",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-8",
+						"title": "Variations from Pato Lock position",
+						"episodeNumber": 8,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/a6dc52f2-104c-45f4-911b-8e9b0d2a5bbe/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 662,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/a6dc52f2-104c-45f4-911b-8e9b0d2a5bbe/thumbnail.jpg",
+						"shortDescription": "Finishes - Variations from Pato Lock position",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Variations from Pato Lock position",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-9",
+						"title": "Outside Heel Hook variations",
+						"episodeNumber": 9,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/8a1a9d79-11c0-4a5a-a4a3-0b4f6eeda518/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 554,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/8a1a9d79-11c0-4a5a-a4a3-0b4f6eeda518/thumbnail.jpg",
+						"shortDescription": "Finishes - Outside Heel Hook variations",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Outside Heel Hook variations",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-10",
+						"title": "Outside Heel Hook from 5050 position",
+						"episodeNumber": 10,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/0654fe31-6634-4c9e-a264-bcb9a25e0421/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 763,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/0654fe31-6634-4c9e-a264-bcb9a25e0421/thumbnail.jpg",
+						"shortDescription": "Finishes - Outside Heel Hook from 5050 position",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Outside Heel Hook from 5050 position",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-11",
+						"title": "Knee Bar submissions",
+						"episodeNumber": 11,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/38b17131-cef6-4d61-bdca-97ecccfbe329/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 329,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/38b17131-cef6-4d61-bdca-97ecccfbe329/thumbnail.jpg",
+						"shortDescription": "Finishes - Knee Bar submissions",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Knee Bar submissions",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-12",
+						"title": "Knee Bar on Ethan Crelinsten",
+						"episodeNumber": 12,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/ee19d5fb-2ea1-4946-8bd6-1f090616aa19/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 1089,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/ee19d5fb-2ea1-4946-8bd6-1f090616aa19/thumbnail.jpg",
+						"shortDescription": "Finishes - Knee Bar on Ethan Crelinsten",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Knee Bar on Ethan Crelinsten",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					},
+					{
+						"id": "aoj-atl-finishes-13",
+						"title": "Ankle Lock on Owen Jones",
+						"episodeNumber": 13,
+						"content": {
+							"dateAdded": "2024-09-10T02:32:24Z",
+							"videos": [{
+								"videoType": "HLS",
+								"url": "https://vz-556fe676-ce4.b-cdn.net/78e6c157-00b2-4ff8-9e6f-ed23926e4172/playlist.m3u8",
+								"quality": "HD"
+							}],
+							"duration": 975,
+							"language": "en-us"
+						},
+						"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/78e6c157-00b2-4ff8-9e6f-ed23926e4172/thumbnail.jpg",
+						"shortDescription": "Finishes - Ankle Lock on Owen Jones",
+						"releaseDate": "2024-09-09",
+						"longDescription": "Finishes - Ankle Lock on Owen Jones",
+						"tags": [
+							"AOJ"
+						],
+						"genres": [
+							"educational"
+						]
+					}
 					]
 				}
 			]
 		}
+	],
+"movies": [{
+			"longDescription": "Guard Retention for Dummies Course by Levi Jones-Leary",
+			"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/f259caee-171a-44e1-8240-091601b75e57/thumbnail.jpg",
+			"releaseDate": "2020-01-20",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"demo"
+			],
+			"id": "f259caee-171a-44e1-8240-091601b75e57",
+			"shortDescription": "Guard Retention for Dummies Course by Levi Jones-Leary",
+			"title": "Guard Retention for Dummies",
+			"content": {
+				"duration": 3973,
+				"videos": [{
+					"videoType": "HLS",
+					"url": "https://vz-556fe676-ce4.b-cdn.net/f259caee-171a-44e1-8240-091601b75e57/playlist.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:11Z"
+			}
+		},
+		{
+			"longDescription": "Wrestling Training by Adam Saitiev",
+			"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/b4d57e57-d288-4c50-a70d-bbdc0c136dbb/thumbnail.jpg",
+			"releaseDate": "2020-01-20",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"demo"
+			],
+			"id": "shortform-4374be10035077242dde8b7fe272e509ad6e563a",
+			"shortDescription": "Wrestling Training by Adam Saitiev",
+			"title": "Wrestling Training",
+			"content": {
+				"duration": 2934,
+				"videos": [{
+					"videoType": "HLS",
+					"url": "https://vz-556fe676-ce4.b-cdn.net/b4d57e57-d288-4c50-a70d-bbdc0c136dbb/playlist.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:10Z"
+			}
+		},
+		{
+			"longDescription": "K Guard Kulture by Josh Cisneros",
+			"thumbnail": "https://vz-556fe676-ce4.b-cdn.net/efca4c1f-2843-4f84-a9ba-fee18a27cf93/thumbnail.jpg",
+			"releaseDate": "2020-01-20",
+			"genres": [
+				"educational"
+			],
+			"tags": [
+				"demo"
+			],
+			"id": "shortform-a59a8c9b7140da32b98cb91fe415a2e3e7dc0660",
+			"shortDescription": "K Guard Kulture by Josh Cisneros",
+			"title": "K Guard Kulture",
+			"content": {
+				"duration": 3194,
+				"videos": [{
+					"videoType": "HLS",
+					"url": "https://vz-556fe676-ce4.b-cdn.net/efca4c1f-2843-4f84-a9ba-fee18a27cf93/playlist.m3u8",
+					"quality": "HD"
+				}],
+				"language": "en-us",
+				"dateAdded": "2020-01-29T02:39:11Z"
+			}
+		}
 	]
-
 }
